@@ -1,0 +1,835 @@
+/* ============================== */
+
+/* Typography
+================================ */
+
+body,
+p {
+  font-family: "benton-sans", sans-serif;
+  /* font-family: 'Merriweather', serif; */
+  font-weight: 500;
+  line-height: 26px;
+  font-size: 16px;
+}
+
+/* benton font */
+
+@font-face {
+  font-family: "BentonSansMedium";
+  src: url("../fonts/benton/BentonSansMedium.eot");
+  src: url("../fonts/benton/BentonSansMedium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/benton/BentonSansMedium.woff2") format("woff2"),
+    url("../fonts/benton/BentonSansMedium.woff") format("woff"),
+    url("../fonts/benton/BentonSansMedium.ttf") format("truetype"),
+    url("../fonts/benton/BentonSansMedium.svg#BentonSansMedium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BentonSansMedium";
+  src: url("../fonts/benton/BentonSansMedium_1.eot");
+  src: url("../fonts/benton/BentonSansMedium_1.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/benton/BentonSansMedium_1.woff2") format("woff2"),
+    url("../fonts/benton/BentonSansMedium_1.woff") format("woff"),
+    url("../fonts/benton/BentonSansMedium_1.ttf") format("truetype"),
+    url("../fonts/benton/BentonSansMedium_1.svg#BentonSansMedium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BentonSansMedium";
+  src: url("../fonts/benton/BentonSansMedium_2.eot");
+  src: url("../fonts/benton/BentonSansMedium_2.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/benton/BentonSansMedium_2.woff2") format("woff2"),
+    url("../fonts/benton/BentonSansMedium_2.woff") format("woff"),
+    url("../fonts/benton/BentonSansMedium_2.ttf") format("truetype"),
+    url("../fonts/benton/BentonSansMedium_2.svg#BentonSansMedium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "../fonts/benton/BentonSansMedium";
+  src: url("../fonts/benton/BentonSansMedium_3.eot");
+  src: url("../fonts/benton/BentonSansMedium_3.eot?#iefix") format("embedded-opentype"),
+    url(".../fonts/benton/BentonSansMedium_3.woff2") format("woff2"),
+    url("../fonts/benton/BentonSansMedium_3.woff") format("woff"),
+    url("../fonts/benton/BentonSansMedium_3.ttf") format("truetype"),
+    url("../fonts/benton/BentonSansMedium_3.svg#BentonSansMedium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BentonSansMedium";
+  src: url("../fonts/benton/BentonSansMedium_4.eot");
+  src: url("../fonts/benton/BentonSansMedium_4.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/benton/BentonSansMedium_4.woff2") format("woff2"),
+    url("../fonts/benton/BentonSansMedium_4.woff") format("woff"),
+    url("../fonts/benton/BentonSansMedium_4.ttf") format("truetype"),
+    url("../fonts/benton/BentonSansMedium_4.svg#BentonSansMedium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BentonSans";
+  src: url("../fonts/benton/BentonSans-Regular.woff2") format("woff2"),
+    url("../fonts/benton/BentonSans-Regular.woff") format("woff"),
+    url("../fonts/benton/BentonSans-Regular.ttf") format("truetype"),
+    url("../fonts/benton/BentonSans-Regular.svg#BentonSans-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* end benton font */
+
+/* Global styles
+================================================== */
+
+html {
+  overflow-x: hidden !important;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a {
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* =======================
+      header area
+===================== */
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-content p {
+  margin-left: 60px;
+}
+
+.header-content p a {
+  border-bottom: 2px solid #b13100;
+}
+
+.header-content p,
+.header-content p a {
+  font-family: "benton-sans", sans-serif;
+  color: #b13100;
+  margin-bottom: 0;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.header-content p span {
+  font-family: "Merriweather", serif;
+}
+/* 
+.header .navbar-brand {
+  color: #B13100;
+  font-size: 36px;
+  font-weight: 500;
+  font-family: 'Merriweather', serif;
+  letter-spacing: -2px;
+} */
+
+/* .navbar-brand span {
+  font-weight: 700;
+  font-family: "benton-sans", sans-serif;
+  letter-spacing: -2px;
+  display: inline-block;
+  position: relative;
+  right: 0px
+} */
+
+.navigation-unit {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.header .navbar-collapse {
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+.header .navbar {
+  padding: 0;
+}
+
+.header .navbar-brand {
+  padding: 0;
+}
+
+.header ul.navbar-nav > li > a {
+  font-weight: 500;
+  font-size: 22px;
+  padding: 0 20px;
+  display: block;
+  color: #b13217;
+  line-height: 45px;
+}
+
+.header ul.navbar-nav > li.active > a {
+  color: #b13217;
+}
+
+.header ul.navbar-nav > li > a i {
+  margin-left: 5px;
+}
+
+.header ul.navbar-nav > li > a:hover {
+  color: #b13217;
+}
+
+.header ul.navbar-nav > li.header-ticket {
+  margin-top: 15px;
+}
+
+.header ul.navbar-nav > li.header-ticket .ticket-btn {
+  height: 40px;
+  line-height: 40px;
+  padding: 0px 25px;
+  background: #00c1c1;
+  margin-left: 30px;
+}
+
+.header ul.navbar-nav > li.header-ticket .ticket-btn:hover {
+  background: #b13217;
+}
+
+.header ul.navbar-nav li .dropdown-menu {
+  padding: 20px 0 23px;
+  min-width: 230px;
+  margin: 0;
+  border-radius: 0;
+  -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 4px;
+}
+
+.header ul.navbar-nav li .dropdown-menu li a {
+  padding: 4px 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  font-size: 14px;
+  display: block;
+  color: #222;
+}
+
+.header ul.navbar-nav li .dropdown-menu li a:hover {
+  color: #fff;
+  background-color: #55a747;
+}
+
+.header ul.navbar-nav li .dropdown-menu li:last-child a {
+  border-bottom: none;
+}
+
+.header.header-transparent .navbar-brand {
+  padding: 0;
+}
+
+.header.header-transparent .navbar-brand img {
+  vertical-align: top;
+}
+
+.header.header-transparent ul.navbar-nav {
+  position: relative;
+  top: 5px;
+}
+
+.header.header-transparent ul.navbar-nav > li > a {
+  color: #fff;
+  line-height: 72px;
+}
+
+.header.header-transparent.nav-border {
+  border-bottom: 1px solid #363d8a;
+  padding: 10px 0;
+}
+
+.header.header-transparent.nav-border .navbar {
+  padding: 0px 0;
+}
+
+.header.header-transparent.nav-border ul.navbar-nav > li.header-ticket .ticket-btn {
+  background: #3a6af0;
+}
+
+.header.header-classic .navbar {
+  padding: 0;
+}
+
+.header.header-classic ul.navbar-nav {
+  margin-top: 5px;
+}
+
+.header.header-classic ul.navbar-nav > li > a {
+  color: #222222;
+  line-height: 74px;
+}
+
+.header.header-classic ul.navbar-nav > li > a:hover {
+  color: #e7015e;
+}
+
+.header.header-classic ul.navbar-nav > li.active > a {
+  color: #e7015e;
+}
+
+.header.header-classic ul.navbar-nav > li.header-ticket .ticket-btn {
+  background: #e7015e;
+  color: #fff;
+}
+
+.header.header-classic ul.navbar-nav > li.header-ticket .ticket-btn:hover {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #d20055;
+}
+
+.header.sticky {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  background: rgba(26, 24, 49, 0.95);
+  padding: 5px 0;
+}
+
+.header.sticky .navbar {
+  padding: 0;
+}
+
+.header.sticky.fade_down_effect {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.header.sticky.header-classic {
+  background: #fff;
+  -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  padding: 0;
+}
+
+@media (min-width: 991px) {
+  .header ul.navbar-nav li:hover > .dropdown-menu {
+    display: block;
+  }
+}
+
+/* home banner style  */
+
+.header .container-fluid {
+  width: 98%;
+}
+
+.aboutpage-wrapper .container-fluid {
+  margin: 0 185px;
+}
+
+.pdpage-wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-top: 100px;
+}
+.pagelogo-content {
+  position: absolute;
+  top: 110px;
+  z-index: 9;
+}
+@media (min-width: 1200px) {
+  .homepage-wrapper .banner-wrapper-info {
+    margin-left: 200px;
+  }
+}
+
+.homepage-wrapper {
+  background-color: #f0c79d;
+  position: relative;
+}
+
+.homepage-wrapper .address p {
+  color: #b13100;
+}
+
+.header-fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  align-items: center;
+}
+
+.bannerr-title h1 {
+  color: #b13100;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 1;
+}
+
+.banner-wrapper-info {
+  position: relative;
+}
+
+.banner-information {
+  position: absolute;
+  padding-bottom: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+  min-height: 200px;
+  align-items: flex-end;
+  padding: 0 30px;
+  bottom: 35px;
+}
+
+.bannerr-title h1 span {
+  font-family: "Merriweather", serif;
+}
+
+.bannerr-title h1 strong {
+  font-weight: 700;
+  font-family: "benton-sans", sans-serif;
+}
+
+#fp-nav ul li .fp-tooltip {
+  color: #b13100;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 500;
+  transform: rotate(90deg);
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 46%;
+  margin: auto;
+  line-height: 1;
+}
+
+/* .page-number span {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 40px;
+  position: relative;
+  top: -8px;
+} */
+
+.banner-bannerbarans img {
+  max-width: 200px;
+  width: 100%;
+}
+
+.homepage-wrapper .banner-information .address p {
+  font-size: 15px;
+  color: #b13100;
+}
+
+.penda-addressinfo {
+  position: relative;
+}
+
+.address {
+  max-width: 170px;
+  width: 100%;
+}
+
+.address p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 0;
+  letter-spacing: 0.5px;
+}
+
+/* end home banner style */
+
+/* aboutpage style */
+
+.aboutpage-info {
+  display: flex;
+}
+
+.aboutpage-wrapper {
+  background-color: #ccb7e4;
+}
+
+.aboutpage-wrapper .banner-wrapper-info {
+  width: 90%;
+}
+
+.aboutpage-wrapper .bannerr-title {
+  margin-bottom: 45px;
+}
+
+.aboutpage-info p {
+  font-size: 20px;
+  color: #b13100;
+  line-height: 30px;
+}
+
+/* end aboutpage style */
+
+/* working-section */
+
+.wannapage-wrapper {
+  background-color: #bbced5;
+}
+
+.wannapage-wrapper .bannerr-title h1 {
+  color: #fff;
+  font-size: 110px;
+}
+
+.banner-information .address p {
+  color: #b13100;
+}
+
+.wannapage-wrapper .bannerr-title {
+  margin: 0 110px;
+}
+
+.wannapage-wrapper .banner-information .address p {
+  color: #fff;
+}
+
+.working-info {
+  position: relative;
+}
+
+.workikng-image img {
+  width: 100%;
+}
+
+.branding-images {
+  position: absolute;
+}
+
+.workikng-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.workingpage-wrapper .working-info {
+  width: 27%;
+}
+
+.branding-images img {
+  max-width: 150px;
+  width: 100%;
+}
+
+.working-info-image {
+  width: 40%;
+}
+
+.working-info p {
+  font-size: 22px;
+  line-height: 34px;
+  color: #b13100;
+}
+
+/* end working-section */
+
+/* metting style */
+
+.metting-sections {
+  background-color: #f5d0e1;
+}
+
+.metting-sections .container-fluid {
+  margin: 0 45px 0 185px;
+}
+
+.metting-images img {
+  height: 250px;
+}
+
+.metting-sections .bannerr-title h1 {
+  color: #7833dc;
+}
+
+.brands-details {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+
+.metting-info .brands-details h3 {
+  color: #fff;
+}
+
+.brands-details img {
+  max-width: 100px;
+  width: 100%;
+}
+
+.workng-content-warapper {
+  display: flex;
+  align-items: center;
+}
+
+.metting-infoqsans ul li {
+  list-style: none;
+}
+
+.metting-info h3 {
+  color: #7833dc;
+  font-family: "Merriweather", serif;
+  font-size: 60px;
+  line-height: 80px;
+}
+
+.metting-info {
+  width: 25%;
+}
+
+.metting-infoqsans {
+  width: 40%;
+}
+
+.metting-infoqsans ul li p,
+.metting-infoqsans ul li span {
+  font-size: 20px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.metting-infoqsans ul li p {
+  margin-bottom: 0;
+}
+
+.metting-infoqsans ul li {
+  margin-bottom: 10px;
+}
+
+/* end metting style */
+
+/* creative style */
+
+.creative-section {
+  background-color: #ccb7e4;
+}
+
+.creative-section .bannerr-title {
+  width: 75%;
+}
+
+.creative-section .bannerr-title h1 span {
+  color: #fff;
+}
+
+.creative-section .container-fluid {
+  width: 80%;
+}
+
+.creative-section .banner-wrapper-info {
+  width: 60%;
+}
+
+.creative-section {
+  background-color: #ccb7e4;
+}
+
+.creative-wrapper {
+  display: flex;
+  align-items: flex-end;
+}
+
+.creative-wrapper .container-fluid {
+  width: 70%;
+}
+
+.branding-copywriting {
+  display: flex;
+}
+
+.workingpage-wrapper .workikng-image img {
+  height: 350px;
+}
+
+.branding-copywriting-info {
+  width: 50%;
+}
+
+.branding-copywriting-info p {
+  font-size: 20px;
+  color: #b13100;
+  font-weight: 400;
+}
+
+/* end creative style */
+
+/* workingon section  */
+
+.workingpage-wrapper {
+  background-color: #f4f0e3;
+}
+
+.workingpage-wrapper .container-fluid {
+  margin: 0 105px;
+}
+
+.working-onvideoimg {
+  position: relative;
+  width: 60%;
+}
+
+.working-onvideoimg img {
+  width: 100%;
+  height: 400px;
+}
+
+.pagination-info h2 {
+  color: #b13100;
+}
+
+.workingpage-wrapper .bannerr-title {
+  margin-bottom: 30px;
+}
+
+.branding-images {
+  position: absolute;
+  bottom: -5px;
+  left: -60px;
+}
+
+.working-onsection {
+  background-color: #e8acac;
+}
+
+.working-onsection h1 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.pagination-info {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-info h2,
+.pagination-info span {
+  font-size: 40px;
+  line-height: 50px;
+  color: #b13100;
+  margin: 20px 0;
+}
+
+.working-onsection .container-fluid {
+  margin: -0 200px;
+}
+
+/* end working on sections */
+
+/* futureplan-sections style */
+
+.futureplan-sections .banner-wrapper-info {
+  width: 50%;
+}
+
+.futureplan-sections .container-fluid {
+  margin: 0 185px;
+}
+
+.futureplan-sections {
+  background-color: #f0c79d;
+}
+
+.futureplan-sections .banner-wrapper-info {
+  width: 100%;
+}
+
+.futureplan-sections .banner-wrapper-info h1 {
+  color: #7833dc;
+}
+
+.future-planimg {
+  position: relative;
+}
+
+.future-planimg img {
+  width: 100%;
+}
+
+.fbanding img {
+  max-width: 200px;
+  width: 100%;
+}
+
+.fbanding {
+  position: absolute;
+  bottom: -30px;
+  right: -20px;
+}
+
+/* end futureplan-sections */
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 40px;
+  z-index: 70;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}

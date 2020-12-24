@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'BentonSansMedium';
+    src: url('BentonSansMedium.eot');
+    src: url('BentonSansMedium.eot?#iefix') format('embedded-opentype'),
+        url('BentonSansMedium.woff2') format('woff2'),
+        url('BentonSansMedium.woff') format('woff'),
+        url('BentonSansMedium.ttf') format('truetype'),
+        url('BentonSansMedium.svg#BentonSansMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BentonSansMedium';
+    src: url('BentonSansMedium_1.eot');
+    src: url('BentonSansMedium_1.eot?#iefix') format('embedded-opentype'),
+        url('BentonSansMedium_1.woff2') format('woff2'),
+        url('BentonSansMedium_1.woff') format('woff'),
+        url('BentonSansMedium_1.ttf') format('truetype'),
+        url('BentonSansMedium_1.svg#BentonSansMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BentonSansMedium';
+    src: url('BentonSansMedium_2.eot');
+    src: url('BentonSansMedium_2.eot?#iefix') format('embedded-opentype'),
+        url('BentonSansMedium_2.woff2') format('woff2'),
+        url('BentonSansMedium_2.woff') format('woff'),
+        url('BentonSansMedium_2.ttf') format('truetype'),
+        url('BentonSansMedium_2.svg#BentonSansMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BentonSansMedium';
+    src: url('BentonSansMedium_3.eot');
+    src: url('BentonSansMedium_3.eot?#iefix') format('embedded-opentype'),
+        url('BentonSansMedium_3.woff2') format('woff2'),
+        url('BentonSansMedium_3.woff') format('woff'),
+        url('BentonSansMedium_3.ttf') format('truetype'),
+        url('BentonSansMedium_3.svg#BentonSansMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BentonSansMedium';
+    src: url('BentonSansMedium_4.eot');
+    src: url('BentonSansMedium_4.eot?#iefix') format('embedded-opentype'),
+        url('BentonSansMedium_4.woff2') format('woff2'),
+        url('BentonSansMedium_4.woff') format('woff'),
+        url('BentonSansMedium_4.ttf') format('truetype'),
+        url('BentonSansMedium_4.svg#BentonSansMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
